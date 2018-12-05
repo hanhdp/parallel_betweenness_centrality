@@ -1,0 +1,59 @@
+Performing Facebook Dataset ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 4039(0 isolated nodes, 75 degree-1 nodes), num of edges 88234
+Evaluating BC in Parallel...
+0.228147 s
+0.219654 s
+0.22794 s
+0.217613 s
+0.232679 s
+0.222607 s
+0.23262 s
+0.228147 s
+0.230019 s
+0.225513 s
+Done!
+
+Performing FB Politician Dataset  ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 5908(0 isolated nodes, 599 degree-1 nodes), num of edges 41717
+Evaluating BC in Parallel...
+0.745646 s
+0.745396 s
+0.749682 s
+0.747438 s
+0.748794 s
+0.746301 s
+0.747184 s
+0.738484 s
+0.744867 s
+0.733933 s
+Done!
+
+Performing FB Artist Dataset  ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 50515(0 isolated nodes, 3106 degree-1 nodes), num of edges 819198
+Evaluating BC in Parallel...
+99.8465 s
+Done!
+
+Performing DBLP Dataset ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 317080(0 isolated nodes, 43181 degree-1 nodes), num of edges 1049866
+Evaluating BC in Parallel...
+2345.62 s
+Done!
+
+Performing Flick Dataset ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 214626(0 isolated nodes, 18597 degree-1 nodes), num of edges 9114553
+Evaluating BC in Parallel...
+3506.34 s
+Done!
+
+Performing YouTube Dataset ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 1134890(0 isolated nodes, 602539 degree-1 nodes), num of edges 2987624
+Evaluating BC in Parallel...
+56071.60 s
+Done!

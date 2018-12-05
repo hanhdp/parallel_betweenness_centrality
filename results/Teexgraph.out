@@ -1,0 +1,220 @@
+TEEXGRAPH SOLUTION
+Performing Facebook Dataset ...
+
+graph file = ../corpus/facebook_combined.txt
+Loading graph from ../corpus/facebook_combined.txt ...
+- 88234 edges added (m = 88234) in total
+- 0 edges skipped
+- 0 self-edges added
+
+Sorting edge list...
+Sorting done.
+Loading done.
+
+Making graph undirected (m = 88234)...
+Sorting edge list...
+Sorting done.
+Undirected-making done (m = 176468).
+WCC computed.
+
+Time passed: 0.656337 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.328061 sec.
+Time passed: 1.76448e-05 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.309061 sec.
+Time passed: 0.000172975 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.308454 sec.
+Time passed: 0.000164285 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.311981 sec.
+Time passed: 0.000229597 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.310267 sec.
+Time passed: 0.000171665 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.309287 sec.
+Time passed: 0.000173688 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.309492 sec.
+Time passed: 0.000180023 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.311035 sec.
+Time passed: 0.000163034 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.307335 sec.
+Time passed: 0.000224993 sec.
+Computing betweenness values (based on a 100% sample of 4039 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.312495 sec.
+
+Performing FB Artist Dataset ...
+graph file = ../corpus/artist_edges.fb
+
+Loading graph from ../corpus/artist_edges.fb ...
+- 819306 edges added (m = 819306) in total
+- 0 edges skipped
+- 216 self-edges added
+
+Sorting edge list...
+Sorting done.
+Loading done.
+
+Making graph undirected (m = 819306)...
+Sorting edge list...
+Sorting done.
+  WARNING: number of edges is not equal to (twice the) number of input lines.
+  Verify that the graph is actually undirected.
+Undirected-making done (m = 1638396).
+WCC computed.
+
+Time passed: 1.70643 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 111.69 sec.
+Time passed: 9.16421e-07 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 110.22 sec.
+Time passed: 0.00299354 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 112.228 sec.
+Time passed: 0.00282092 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 110.194 sec.
+Time passed: 0.00297439 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 111.847 sec.
+Time passed: 0.00308522 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 109.982 sec.
+Time passed: 0.0030067 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 109.532 sec.
+Time passed: 0.00300404 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 110.582 sec.
+Time passed: 0.00304673 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 109.794 sec.
+Time passed: 0.00297477 sec.
+Computing betweenness values (based on a 100% sample of 50515 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 110.816 sec.
+
+Performing FB Politician Dataset ...
+graph file = ../corpus/politician_edges.fb
+
+Loading graph from ../corpus/politician_edges.fb ...
+- 41729 edges added (m = 41729) in total
+- 0 edges skipped
+- 23 self-edges added
+
+Sorting edge list...
+Sorting done.
+Loading done.
+
+Making graph undirected (m = 41729)...
+Sorting edge list...
+Sorting done.
+  WARNING: number of edges is not equal to (twice the) number of input lines.
+  Verify that the graph is actually undirected.
+Undirected-making done (m = 83435).
+WCC computed.
+
+Time passed: 0.365113 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.841836 sec.
+Time passed: 1.05985e-06 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.875146 sec.
+Time passed: 0.000313375 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.864838 sec.
+Time passed: 0.000255188 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.815951 sec.
+Time passed: 0.000362251 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.813699 sec.
+Time passed: 0.000375332 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.857739 sec.
+Time passed: 0.00026162 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.847216 sec.
+Time passed: 0.000279546 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.847001 sec.
+Time passed: 0.00025649 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.877731 sec.
+Time passed: 0.000318041 sec.
+Computing betweenness values (based on a 100% sample of 5908 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 0.874657 sec.
+
+Performing DBLP Dataset ... 
+graph file = /home/hanhdp/projects/corpus/com-dblp.ungraph.txt
+
+Loading graph from /home/hanhdp/projects/corpus/com-dblp.ungraph.txt ...
+- 1049866 edges added (m = 1049866) in total
+- 0 edges skipped
+- 0 self-edges added
+
+Sorting edge list...
+Sorting done.
+Loading done.
+
+Making graph undirected (m = 1049866)...
+Sorting edge list...
+Sorting done.
+Undirected-making done (m = 2099732).
+WCC computed.
+
+Time passed: 1.19339 sec.
+Computing betweenness values (based on a 100% sample of 317080 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95%Time passed: 2694.78 sec.
+
+Performing Flick Dataset ... 
+graph file = /home/hanhdp/projects/corpus/flickr.edges
+
+Loading graph from /home/hanhdp/projects/corpus/flickr.edges ...
+- 9114557 edges added (m = 9114557) in total
+- 0 edges skipped
+- 8 self-edges added
+
+Sorting edge list...
+Sorting done.
+Loading done.
+
+Making graph undirected (m = 9114557)...
+Sorting edge list...
+Sorting done.
+  WARNING: number of edges is not equal to (twice the) number of input lines.
+  Verify that the graph is actually undirected.
+Undirected-making done (m = 18229106).
+WCC computed.
+
+Time passed: 7.48502 sec.
+Computing betweenness values (based on a 100% sample of 214626 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 4447.93 sec.
+
+
+Performing YouTube Dataset ...
+graph file = ../corpus/com-youtube.ungraph.txt
+
+Loading graph from ../corpus/com-youtube.ungraph.txt ...
+- 2987624 edges added (m = 2987624) in total
+- 0 edges skipped
+- 0 self-edges added
+
+Sorting edge list...
+Sorting done.
+Loading done.
+
+Making graph undirected (m = 2987624)...
+Sorting edge list...
+Sorting done.
+Undirected-making done (m = 5975248).
+WCC computed.
+
+Time passed: 3.27273 sec.
+Computing betweenness values (based on a 100% sample of 1134890 nodes) with 36 CPUs...
+ 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% 100%Time passed: 68744.8 sec.

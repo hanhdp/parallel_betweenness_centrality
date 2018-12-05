@@ -1,0 +1,37 @@
+Performing Facebook Dataset ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 4039(0 isolated nodes, 75 degree-1 nodes), num of edges 88234
+Evaluating BC in changing nWorkers...
+1 3.03657 s
+2 2.51677 s
+4 1.50809 s
+8 0.96298 s
+16 0.538376 s
+32 0.280529 s
+36 0.228147 s
+Done!
+
+Performing FB Politician Dataset ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 5908(0 isolated nodes, 599 degree-1 nodes), num of edges 41717
+Evaluating BC in changing nWorkers...
+1 8.20133 s
+2 7.44366 s
+4 4.5151 s
+8 2.60588 s
+16 1.59604 s
+32 0.892183 s
+36 0.744867 s
+Done!
+
+Performing FB Artist Dataset ...
+NumThread = 36
+Building the big graph... Done. Num of nodes 50515(0 isolated nodes, 3106 degree-1 nodes), num of edges 819198
+Evaluating BC in changing nWorkers...
+1 1129.47 s
+4 556.462 s
+8 330.638 s
+16 196.461 s
+32 118.92 s
+36 99.8465 s
+Done!
